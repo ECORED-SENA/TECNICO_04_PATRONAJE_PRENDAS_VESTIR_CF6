@@ -4,111 +4,117 @@
     "slug": "external",
     "title": "Volver al inicio",
     "path": "index.html"
+  },  
+  {
+    "id": 0,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion",
+    "title": "Introducción",    
+    "path": "pages/introduccion.html"
   },
   {
     "id": 1,
     "icon": "fa fa-file-text",
-    "slug": "intro",
-    "title": "Introducción",
-    "breadcrumb": ["Inicio","intro"],
-    "path": "pages/intro.html"
+    "slug": "control_calidad",
+    "title": "1. Control de calidad",    
+    "path": "pages/tema-1.html"
   },
   {
     "id": 2,
-    "icon": "fa fa-file-text",
-    "slug": "control",
-    "title": "1. Control de calidad",
-    "breadcrumb": ["Inicio","control"],
-    "path": "pages/1-tema.html",
-    "submenu": [
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.1 Concepto de calidad",
-        "anchor": "concepto"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.2 Gestión de Calidad total",
-        "anchor": "gestion"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.3 Puntos de control en el proceso de confección",
-        "anchor": "puntos"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.4 Control de Calidad en patronaje",
-        "anchor": "control1"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.5 Control de Calidad en trazo y corte",
-        "anchor": "control2"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.6 Control de Calidad en confección",
-        "anchor": "control3"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.7 Control de Calidad en terminados",
-        "anchor": "control4"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "control",
-        "title": "1.8 Control de calidad en insumos, materiales y textiles",
-        "anchor": "control5"
-      }
-    ]
+    "icon": "fa fa-play-circle",
+    "slug": "concepto_calidad",
+    "title": "1.1 Concepto de calidad",    
+    "path": "pages/tema-1_1.html"
   },
   {
     "id": 3,
-    "icon": "fa fa-file-text",
-    "slug": "elaboracion",
-    "title": "2. Elaboración de prototipos en tejido de punto",
-    "breadcrumb": ["Inicio","elaboracion"],
-    "path": "pages/2-tema.html",
-    "submenu": [
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "elaboracion",
-        "title": "2.1 Confección panty femenino",
-        "anchor": "confeccion1"
-      },
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "elaboracion",
-        "title": "2.2 Confección bóxer masculino",
-        "anchor": "confeccion2"
-      },
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "elaboracion",
-        "title": "2.3 Confección de camiseta tipo polo",
-        "anchor": "confeccion3"
-      },
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "elaboracion",
-        "title": "2.4 Confección de pantalón sudadera",
-        "anchor": "confeccion4"
-      },
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "elaboracion",
-        "title": "2.5 Elaboración de conjunto deportivo top y leggins",
-        "anchor": "confeccion5"
-      }
-    ]
+    "icon": "fa fa-play-circle",
+    "slug": "gestion_calidad_total",
+    "title": "1.2 Gestión de calidad total",    
+    "path": "pages/tema-1_2.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-play-circle",
+    "slug": "puntos_control_proceso_confeccion",
+    "title": "1.3 Puntos de control en el proceso de confección",    
+    "path": "pages/tema-1_3.html"
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-play-circle",
+    "slug": "control_calidad_patronaje",
+    "title": "1.4 Control de calidad en patronaje",    
+    "path": "pages/tema-1_4.html"
+  },
+  {
+    "id": 6,
+    "icon": "fa fa-play-circle",
+    "slug": "control_calidad_trazo_corte",
+    "title": "1.5 Control de calidad en trazo y corte",    
+    "path": "pages/tema-1_5.html"
+  },
+  {
+    "id": 7,
+    "icon": "fa fa-play-circle",
+    "slug": "control_calidad_confeccion",
+    "title": "1.6 Control de calidad en confección",    
+    "path": "pages/tema-1_6.html"
+  },
+  {
+    "id": 8,
+    "icon": "fa fa-play-circle",
+    "slug": "control_calidad_terminados",
+    "title": "1.7 Control de calidad en terminados",    
+    "path": "pages/tema-1_7.html"
+  },
+  {
+    "id": 9,
+    "icon": "fa fa-play-circle",
+    "slug": "control_calidad_insumos",
+    "title": "1.8 Control de calidad en insumos, materiales y textiles",    
+    "path": "pages/tema-1_8.html"
+  },     
+  {
+    "id": 10,
+    "icon": "fa fa-play-circle",
+    "slug": "elaboracion_prototipos",
+    "title": "2.0 Elaboración de prototipos en tejido de punto",    
+    "path": "pages/tema-2.html"
+  }, 
+  {
+    "id": 11,
+    "icon": "fa fa-play-circle",
+    "slug": "confeccion_panty",
+    "title": "2.1 Confección panty femenino",    
+    "path": "pages/tema-2_1.html"
+  }, 
+  {
+    "id": 12,
+    "icon": "fa fa-play-circle",
+    "slug": "confeccion_boxer_masculino",
+    "title": "2.2 Confección bóxer masculino",    
+    "path": "pages/tema-2_2.html"
+  }, 
+  {
+    "id": 13,
+    "icon": "fa fa-play-circle",
+    "slug": "confeccion_polo",
+    "title": "2.3 Confección de camiseta tipo polo",    
+    "path": "pages/tema-2_3.html"
+  },
+  {
+    "id": 14,
+    "icon": "fa fa-play-circle",
+    "slug": "confeccion_pantalon_sudadera",
+    "title": "2.4 Confección de pantalón sudadera",    
+    "path": "pages/tema-2_4.html"
+  },
+  {
+    "id": 14,
+    "icon": "fa fa-play-circle",
+    "slug": "elaboracion_conjunto_deportivo",
+    "title": "2.5 Elaboración de conjunto deportivo top y leggins",    
+    "path": "pages/tema-2_5.html"
   }
 ]

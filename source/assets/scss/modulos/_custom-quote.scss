@@ -1,0 +1,35 @@
+$quoteCl: #FFD54F;
+
+.CustomQuote {
+  position: relative;
+  .iconContainer {    
+    width: 100%;  
+    position: relative;  
+    background-color: white; 
+    &::before {
+      content:"";
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      bottom: 0;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      background-color: $quoteCl;
+    }
+    .quoteIcon { 
+      position: relative;
+      left: calc(100% - 75px);
+      width: 55px;           
+      img {          
+        width:55px;     
+      }
+    }         
+  }
+  .quoteBody {
+    position: relative;
+    padding: 0rem 2rem 2rem 2rem;
+    background-color: $quoteCl;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}

@@ -1,459 +1,1034 @@
-.container#control
+.container
 
-    .header-ecored
-        h1 1. Control de calidad
-    
-    .card.shadow
-        img(src="assets/images/pages/img2.png", style="max-width: 100%").img-fluid
+    // Header
+    .header.mt-md-5
+        .header-body
+            // Title
+            h1.header-title  Títulos 
+            // Subtitle
+            p.header-subtitle
+                | Ejemplo para uso de títulos y subtítulos.
+
+    section#titulos
+
+        .header-ecored
+            h1 1. Identificar las herramientas y su intervención en el desarrollo de los modelos y prototipos 
+
+        .header-ecored
+            h2 1.1 Título H2
+
+
+        .header-ecored
+            h3 1.1.1 Título H3
+
+        .header-ecored
+            h4 1.1.1.1 Título H4
+
+        .header.my-md-5
+            .header-body
+                // Title
+                h1.header-title Título con separador
+                // Subtitle
+                p.header-subtitle
+                    | Subtítulo descriptivo
+
+
+    .header#tipografia
+        .header-body
+            h1.header-title Tipografía base
+            p.header-subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    .card
         .card-body
-            p Con el crecimiento de la industrialización, se requería ejercer control en los procesos para disminuir los desperdicios y los reprocesos en la producción, cada vez con niveles de unidades más altas, se necesitaba estandarizar las características del producto fabricado.
-            p.mt-3 Teniendo en cuenta lo mencionado, revisar la producción proporciona mejor confianza en el cliente, mejorar la competitividad y como herramienta en la administración de la empresa.
-            p.mt-3 Es importante mencionar los principios de la calidad para desarrollar el control de esta:
+            .row
+                .col-xl-6
+                    // Headings
+                    h1 h1. Bootstrap heading
+                    h2 h2. Bootstrap heading
+                    h3 h3. Bootstrap heading
+                    h4 h4. Bootstrap heading
+                    h5 h5. Bootstrap heading
+                    h6 h6. Bootstrap heading
+                .col-xl-6
+                    // Text
+                    p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        | tempor incididunt ut labore et dolore magna aliqua.
+                    // Text
+                    p.text-muted
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                    // Text
+                    p
+                        a(href='#!') Link example
+                // / .row
+
+    #card
+
+        // Header
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Cards
+                // Subtitle
+                p.header-subtitle
+                    | Ejemplo para uso de tarjetas BS
+
+
+        .card
+            .card-body
+                h3.card-title Card title
+                p.card-text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+
+        hr.my-5
+        .card-deck
+            .card
+                img.card-img-top(src='https://via.placeholder.com/230', alt='...')
+                .card-body
+                    h3.card-title Card title
+                    p.card-text
+                        | This is a longer card with supporting text below as a natural lead-in to additional
+                        | content. This content is a little bit longer.
+                    p.card-text
+                        small.text-muted Last updated 3 mins ago
+            .card
+                img.card-img-top(src='https://via.placeholder.com/230', alt='...')
+                .card-body
+                    h3.card-title Card title
+                    p.card-text This card has supporting text below as a natural lead-in to additional content.
+                    p.card-text
+                        small.text-muted Last updated 3 mins ago
+            .card
+                img.card-img-top(src='https://via.placeholder.com/230', alt='...')
+                .card-body
+                    h3.card-title Card title
+                    p.card-text
+                        | This is a wider card with supporting text below as a natural lead-in to additional content.
+                        | This card has even longer content than the first to show that equal height action.
+                    p.card-text
+                        small.text-muted Last updated 3 mins ago
+
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Card header
+                // Subtitle
+                p.header-subtitle
+                    | Ejemplo para uso de card con cabezote.
+
+
+        .card
+            .card-header
+                h3.card-header-title Card title
+            .card-body
+                p.card-text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+    #cardborder
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Card border bottom
+                // Subtitle
+                p.header-subtitle
+                    | Ejemplo para uso de card con borde
+
+        section.card-border-bottom
+            .card
+                .card-body
+                    p.card-text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    #headerstep
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Header step
+                // Subtitle
+                p.header-subtitle
+                    | Se recomienda el uso en listados de instrucciones o un paso a paso.
+
+        .row.justify-content-between.align-items-start.mt-5
+            .col-12.col-lg-6
+                p.header-step
+                    span.header-step-number 01
+                    span.header-step-title
+                        strong La muestra debe tomarse dentro de las primeras 6 horas post mortem.
+                hr
+                p.header-step
+                    span.header-step-number 02
+                    span.header-step-title
+                        strong
+                        | La toma de la muestra deberá ser con hisopos en medio de transporte de viral (MTV) y los aspirados en solución salina.
+                hr
+                p.header-step
+                    span.header-step-number 03
+                    span.header-step-title
+                        strong
+                        | Remitirlas de manera inmediata al Laboratorio de Salud Pública Departamental o Distrital (LDSP).
+                hr
+                p.header-step
+                    span.header-step-number 04
+                    span.header-step-title
+                        strong
+                        | Dentro de las primeras 48 horas posterior a su recolección, se deben conservar a una temperatura de refrigeración entre -2 y 8°C.
+                hr
+
+            .col-12.col-lg-6
+                p.header-step
+                    span.header-step-number 05
+                    span.header-step-title
+                        strong
+                        | Si van a ser procesadas o enviadas al LDSP o al Instituto Nacional de Salud después de las 48 horas de recolección, se deben conservar congeladas a menos 70°C.
+                hr
+                p.header-step
+                    span.header-step-number 06
+                    span.header-step-title
+                        strong
+                        | En los casos sin diagnóstico en los cuales se sospecha infección por COVID-19, se hace obligatoria la aplicación de todos los lineamientos de protección y cuidados.
+                hr
+
+
+        .header
+            .header-body
+                // Subtitle
+                p.header-subtitle
+                    | Para subtítulos de parrafo. En el ejemplo se usa la clase .text-color-orange para darle un color naranja.
+
+
+        p.header-step.my-5
+            span.header-step-number.text-color-orange 01
+            span.header-step-title
+                strong
+                | Como colocar un subtítulo con header-step
+
+    #cardimagen
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Card + Imagen + Header step
+                // Subtitle
+                p.header-subtitle
+                    | Ejemplo para colocar una imagen en una card
+
+
+        .card.mb-5
+            img.card-img-top(src='assets/images/pages/ejemplos/imagenBanner.svg')
+
+            .card-body
+                p.header-step
+                    span.header-step-number 01
+                    span.header-step--title
+                        | Retirar y desechar en bolsa roja doble todos los elementos después del deceso del paciente.
+
+                p.header-step.my-5
+                    span.header-step-number 02
+                    span.header-step--title
+                        | El traslado interno del cadáver deberá realizarse siguiendo la ruta establecida por el prestador de servicios de salud, garantizando las condiciones de bioseguridad sin poner en riesgo la comunidad hospitalaria, pacientes, familiares y usuarios.
+
+
+    #cardvideo
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Card + Video Youtube
+
+        .row.my-5
+            .col
+                .card
+                    .embed-responsive.embed-responsive-16by9
+                        iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/HBgyl2vrLxw', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+                    .card-body.mt-0
+                        strong Información sobre el coronavirus | 
+                        | En diciembre de 2019 se detectó un grupo de casos de neumonía en China, los investigadores encontraron que fue causado por un virus desconocido, ahora llamado el nuevo CORONAVIRUS o COVID-19. Acompáñanos a revisar lo que sabemos del nuevo virus.
+
+
+    #headerfluid
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Header 
+
+.py-5(style="background-color:#E6E5E7")
+    h3.text-center.mb-0 Cómo quitarse y cómo ponerse el equipo de protección personal.
+    p.text-center.mb-0 Infografías de la OPS.
+
+.container
+
+    #headerarrow
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Header Arrow 
+
+
+.header-arrow.my-5
+    h3.text-center Cómo quitarse y cómo ponerse el equipo de protección personal.
+    p.text-brand-color-light.text-center.my-2 Infografías de la OPS.
+
+
+
+.container
+
+    .header.mt-md-5
+        .header-body
+            // Title
+            h1.header-title Header Arrow Container
+
+    .header-arrow.my-5
+        h3.text-center Cómo quitarse y cómo ponerse el equipo de protección personal.
+        p.text-brand-color-light.text-center.my-2 Infografías de la OPS.
+    
+
+    #jumbotron
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Jumbotron
+                        
+        .jumbotron
+            p El duelo es un proceso que se lleva a cabo después de una pérdida, ya sea de una persona querida, de un empleo, de una relación, de un objeto etc. Es un proceso necesario, universal y doloroso. Lo importante es integrarlo en la vida y restablecer una relación con él.
+
+
+        .jumbotron.bg-danger
+            .row.justify-content-center.align-items-center
+                .col-auto
+                    img(src="assets/images/pages/ejemplos/modulo-7/icon-03.svg", style="max-width: 120px").img-fluid
+                .col-10
+                    p.text-white.text-center.mb-0 El duelo es un proceso que se lleva a cabo después de una pérdida, ya sea de una persona querida, de un empleo, de una relación, de un objeto etc. Es un proceso necesario, universal y doloroso. Lo importante es integrarlo en la vida y restablecer una relación con él.
+
+
+        .jumbotron
+            .row.justify-content-center.align-items-center
+                .col-auto
+                    img(src="assets/images/pages/ejemplos/iconos/icon_superar-duelo.svg", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+                .col-10
+                    p.mb-0 El duelo es un proceso que se lleva a cabo después de una pérdida, ya sea de una persona querida, de un empleo, de una relación, de un objeto etc. Es un proceso necesario, universal y doloroso. Lo importante es integrarlo en la vida y restablecer una relación con él.
+
+
+        .jumbotron
+            .row.justify-content-center.align-items-center
+                .col-auto
+                    img(src="assets/images/pages/ejemplos/iconos/icon_superar-duelo.svg", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+                .col-10
+                    h3 Título elemento
+                    hr.border-color-primary.border-2
+                    p.mb-0 El duelo es un proceso que se lleva a cabo después de una pérdida, ya sea de una persona querida, de un empleo, de una relación, de un objeto etc. Es un proceso necesario, universal y doloroso. Lo importante es integrarlo en la vida y restablecer una relación con él.
+
+
+        .row.justify-content-center.align-items-center
+            .jumbotron.col-12.col-md-8.bg-white
+                p.header-step
+                    span.header-step-number 01
+
+                .row.justify-content-center.align-items-center
+                    .col-auto
+                        img(src="assets/images/pages/ejemplos/modulo-3/a1.svg", style="max-width: 140px").img-fluid.mb-3.mb-md-0
+                    .col-8
+                        p Usar mascarilla respiratoria N 95 y guantes para trabajo pesado (guantes de caucho), lavarlos con jabón líquido después de cada procedimiento y permitir su secado.
+
+
+    #cardavatartop
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Card + Avatar Top
+
+
+        section.pasos-protocolo.my-5.pt-5
+
+            .row.justify-content-center.mt-5
+
+                .col-12.col-md-4.my-6.my-md-0
+                    .card.bg-brand-color-light
+                        .card-body.text-center
+
+                            .avatar.avatar-super.card-avatar.card-avatar-top
+                                img(src="assets/images/pages/ejemplos/iconos/icon_sintomas_01.svg").avatar-img
+
+                            h4 Sintoma
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                .col-12.col-md-4.my-6.my-md-0
+                    .card
+                        .card-body.text-center
+
+                            .avatar.avatar-super.card-avatar.card-avatar-top
+                                img(src="assets/images/pages/ejemplos/iconos/icon_sintomas_01.svg").avatar-img
+
+                            h4 Sintoma
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                .col-12.col-md-4.mt-6.my-md-0
+                    .card
+                        .card-body.text-center
+
+                            .avatar.avatar-super.card-avatar.card-avatar-top
+                                img(src="assets/images/pages/ejemplos/iconos/icon_sintomas_01.svg").avatar-img
+
+                            h4 Sintoma
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+        section.card-border-bottom.pt-md-5
+
+            .row.justify-content-center.mt-5.no-margin
+
+                .col-12.col-md-5.mb-5.mr-md-4.my-5
+
+                    .card
+                    
+                        .card-body.text-center
+
+                            .avatar.avatar-xxl.card-avatar.card-avatar-top
+                                img(src="assets/images/pages/ejemplos/modulo-3/d1.svg").avatar-img.rounded-circle.border.border-card.border-4
+
+                            p.header-step.flex-column.justify-content-center.align-items-center
+                                span.header-step-number 01
+                                span.header-step--title <strong>Autopsia verbal:</strong> documentar las circunstancias que rodearon el deceso y establecer las posibles causas de muerte.
+
+
+                .col-12.col-md-5.mb-5.p-0.ml-md-4.my-5
+
+                    .card
+
+                        .card-body.text-center
+
+                            .avatar.avatar-xxl.card-avatar.card-avatar-top
+                                img(src="assets/images/pages/ejemplos/modulo-3/d2.svg").avatar-img.rounded-circle.border.border-card.border-4
+                            p.header-step.flex-column.justify-content-center.align-items-center
+                                span.header-step-number 02
+                                span.header-step--title <strong>Toma de muestras:</strong> que sean procedentes y la remisión inmediata al Laboratorio de Salud Pública.
+
+
             .row.justify-content-center
-                .col-11
-                    .list.align-items-start.mt-4
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Mejora continua.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Evitar inspecciones masivas.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Relación de precio y calidad.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Métodos modernos de capacitación y entrenamiento.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Exigencia de la competitividad.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Identificación del trabajador con sus funciones y su aporte con la calidad.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Eliminación de barreras entre áreas.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Establecer ruta de la calidad.
-            p.mt-4 Acciones con el fin de transformar la empresa hacia la calidad.
-    
-    br#concepto
 
-    .header-ecored
-        h2 1.1 Concepto de calidad
-    
-    .card.shadow
-        img(src="assets/images/pages/img3.png", style="max-width: 100%").img-fluid
-        .card-body
-            img(src="assets/images/pages/img4.png", style="max-width: 90%").img-fluid.img-a1
-            p.mt-3 Teniendo en cuenta los términos de los estudiosos se puede determinar que satisfacción, cliente, necesidades, mercado, expectativas son las palabras comunes, que engloban el concepto para concluir que la calidad es nivel de satisfacción del cliente cumpliendo con los requisitos, es decir las necesidades y expectativas del cliente.
-    
-    .card.shadow
-        img(src="assets/images/pages/img5.png", style="max-width: 100%").img-fluid
-        .card-body
-            p Una vez se tiene definidos los objetivos de calidad y los requisitos de calidad del producto, se entiende que se deben controlar las variaciones de esas características, cualidades o especificaciones exigidas sea por el cliente o de acuerdo con una norma.
-            p.mt-4 Mejor llamado como control estadístico de la calidad, es el proceso conformado por una serie de técnicas para analizar el comportamiento de las variaciones de los requisitos del producto con el fin de establecer acciones que mejoren el producto, su calidad, en pro de aumentar las ventas además de la productividad de la empresa.
-            p.mt-4 El control de calidad no sólo está encaminada a las inspecciones del producto terminado, sino de igual importancia las inspecciones del producto durante el proceso de producción y la materia prima e insumos.
-            p.mt-4 El cliente es la persona que adquiere el producto o servicio, puede o no utilizarlo y es quien paga por ello.
-            img(src="assets/images/pages/img6.png", style="max-width: 90%").img-fluid.img-a
-            img(src="assets/images/pages/img7.png", style="max-width: 90%").img-fluid.img-a
-            p Existen tipos de requisitos relacionados con:
-            .row.justify-content-center
-                .col-11
-                    .list.align-items-start.mt-4
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 #[b Función del producto]: referencia a su desempeño, responde a la pregunta para que sirve.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 #[b Características técnicas]: cantidades, peso, tamaño, color, entre otras.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Condiciones de pago y precio.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Plazos de entrega.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Especificaciones dadas por el cliente.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 #[b Mantenimientos y vida útil]: instrucciones de uso y términos de garantía.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 #[b Legales]: leyes y normas: rotulados, materiales, uso, residuos.
-            p.mt-4 Conforme lo mencionado anteriormente también podemos clasificar los requisitos de acuerdo con las características directas del producto, de la organización o externos como es el cliente y la normatividad.
-            p.mt-4 Dado que se presentan variaciones en los productos es preciso permitir tolerancias, las cuales son márgenes permisibles de variación.
-            .sub-line
-                h3.txt-color1 Antecedentes y evolución de control de calidad
-            p Al ubicarse de manera temporal en el cambio de la fabricación artesanal a la industrialización, derivada de la revolución industrial, los cambios en la producción de una manera masificada; su auge se presentó en los años de la década de 1910 en la industria del automóvil liderada por Henry Ford, donde se daba los inicios de la calidad en las inspecciones de producto terminado. Con el avance de la tecnología, estudios del trabajo e implementación de técnicas para aumentar la productividad, buscando la estandarización del producto, la calidad gana la importancia dentro del desempeño del negocio, pues derivado de los niveles de calidad del producto se satisface al cliente. Hoy en día, derivada de la cuarta revolución industrial el proceso de control de calidad se viene automatizando, para análisis y predicción de fallas, sin olvidar que las personas siguen haciendo parte, al gestionar de manera integral la cadena de suministro.
-            img(src="assets/images/pages/img8.png", style="max-width: 90%").img-fluid.img-a
-            .sub-line
-                h3.txt-color1 Control de calidad en industrial textil y confección
-            p.mt-4 Se controla la calidad con el fin de mantener y corregir los defectos, errores o no conformidades que se presentan durante la producción de la prenda.
-            p.mt-4 Por tanto, se desarrolla según las variables y atributos del producto. Los beneficios de implementar las herramientas para controlar la calidad son:
-            .row.justify-content-center
-                .col-11
-                    .list.align-items-start.mt-4
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Reducir costos.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Reducir defectos.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Obtener productos estandarizados.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Disminución de desperdicios.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Mejoras de los procesos.
-                    .list.align-items-start.mt-2
-                        .list__item
-                            .list__item__icon
-                                img(src="assets/images/pages/v1.svg").img-fluid  
-                        .list__txt
-                            p.mt-1 Aumento de la productividad.
-            p.mt-4 De acuerdo con lo mencionado, el control de la calidad en la industria se realiza en procesos y en los recursos que intervienen en la producción de la prenda, desde el diseño de la prenda, el patronaje; la materia prima, para el caso la tela; los insumos entre los que se destaca el hilo; en confección las costuras; en el empaque, embalaje y entrega al cliente asociadas a las características de cada proceso y de cada material.
-            p.mt-4 El control de calidad se realiza en las siguientes fases:
-            img(src="assets/images/pages/img9.png", style="max-width: 90%").img-fluid.img-a
-            p.mt-4 Mejora continua con el fin de prever ocurrencias de la no conformidad, toma de decisiones.
-            img(src="assets/images/pages/img10.png", style="max-width: 100%").img-fluid.img-a
-            .sub-line
-                h3.txt-color1 Automatización en control de calidad en la industria textil y confección
-            p Se denomina Calidad 4.0, relacionada con la revolución digital, teniendo en cuenta las tecnologías de big data, inteligencia artificial, machine learning, Deep learning, internet de las cosas. La automatización de los procesos proporciona agilidad, más seguridad en los datos porque disminuye la presentación de datos incorrectos y más conocimiento sobre cada área de la empresa.
-            p.mt-4 La implementación básica se refiere con la utilización de software especializadas en las herramientas de calidad como por ejemplo programas de SPSS, STATGRAPHICS CENTURION, SAS, las relacionadas con el internet de las cosas como la geolocalización con aplicaciones como los códigos QR, y las relacionadas con las herramientas de lean manufacturing.
-            p.mt-4 Con la integración de datos y su tratamiento avanzado se puede simular los procesos para mejorar la gestión de calidad virtual. Además, las personas encargadas directamente con la calidad pueden desarrollar actividades de manera remota sin necesidad de su presencia in situ de la empresa. También puede apoyar en la planificación de auditorías en el mejoramiento de implementación de las 5’S.
-            img(src="assets/images/pages/img11.png", style="max-width: 100%").img-fluid.img-a
-    
-    br#gestion
+                .card.col-12.col-md-5.p-0.mr-md-4.mt-5
+                    .card-body.text-center
 
-    .header-ecored
-        h2 1.2 Gestión de Calidad total
-    
-    .jumbotron.bg-white.shadow
-        img(src="assets/images/pages/img12.png", style="max-width: 100%").img-fluid.img-a1
-        p.mt-4 La comunicación interna también debe estar bien organizada, contar con un sistema de comunicación adecuado para evitar duplicidades de información que afecten negativamente la gestión de la calidad.
-        p Para reconocer la gestión en los procesos se debe tener en cuenta el ciclo Deming de la calidad, sobre el cual se construyen los sistemas de gestión. En la siguiente figura se aprecia como se constituye el ciclo de la calidad para la mejora continua.
-        img(src="assets/images/pages/img13.png", style="max-width: 100%").img-fluid.img-a
-        .sub-line
-                h3.txt-color1 Cultura de calidad
-        p Son los principios de calidad que rigen la forma de actuar de las personas que hacen parte de la organización, para que interactúen entre ellas y lograr en equipo los objetivos propuestos.
-        p Esta base definida en términos de valores y hábitos, del quehacer diario de todos los que trabajan en la empresa, su implementación requiere de capacitación efectiva y constante, interacción con una comunicación asertiva y eficaz para seguir construyendo una cultura de calidad sólida; la metodología utilizada son los círculos de calidad desarrollados por Kauro Ishikawa. En la siguiente figura se aprecia los componentes de los círculos de calidad.
-        img(src="assets/images/pages/img14.png", style="max-width: 100%").img-fluid.img-a
-        .sub-line
-                h3.txt-color1 Metodología de mejoramiento continuo
-        p La metodología se encuentra enmarcada dentro del ciclo de mejoramiento continuo en donde se desarrollan 13 pasos. La participación es de todo el personal involucrado en la empresa, para que el mejoramiento sea constante, es un trabajo diario. Los elementos del KAIZEN son:
-        .row.justify-content-center
-            .col-11
-                .list.align-items-start.mt-4
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 Trabajo en equipo.
-                .list.align-items-start.mt-2
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 Disciplina personal.
-                .list.align-items-start.mt-2
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 Moral mejorada.
-                .list.align-items-start.mt-2
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 Círculos de calidad.
-                .list.align-items-start.mt-2
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 Sugerencias para la mejoría.
-        p Para conocer sobre la metodología KAIZEN, leer la ESTRATEGIA KAIZEN de la bibliografía (Lefcovich, 2009)
-        p Hablamos de KAIZEN, estrategia desarrollada en Japón una vez terminada la II guerra mundial. Para iniciar se debe considerar el análisis del problema en la siguiente figura podemos observar el análisis de los diferentes aspectos para tener en cuenta:
-        img(src="assets/images/pages/img15.png", style="max-width: 100%").img-fluid.img-a
-        p A continuación, puede observar los 13 pasos de la metodología especificados en la siguiente tabla:
-        img(src="assets/images/pages/img16.png", style="max-width: 100%").img-fluid.img-a
-        img(src="assets/images/pages/img17.png", style="max-width: 100%").img-fluid.img-a
-        img(src="assets/images/pages/img18.png", style="max-width: 100%").img-fluid.img-a
-        p.text-center Tabla Recuperada de: Material de formación - Equipo de desarrollo curricular Tec. Control Calidad en Confección Industrial – SENA 2020
-        .sub-line
-                h3.txt-color1 Six sigma
-        p Es un modelo de gestión, se conoce por sus siglas en ingles DMAIC, el objetivo es el mejoramiento de los procesos; cuya traducción es asociada a las siguientes palabras:
-        .row.justify-content-center
-            .col-11
-                .list.align-items-start.mt-4
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 #[b Definir]: el objetivo del problema o defecto para validar, además de los miembros del programa.
-                        p Medir: Entender el problema o defecto.
-                .list.align-items-start.mt-2
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 #[b Analizar]: investigar causas reales del problema o defecto.
-                .list.align-items-start.mt-2
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 #[b Mejorar]: determinar las mejoras.
-                .list.align-items-start.mt-2
-                    .list__item
-                        .list__item__icon
-                            img(src="assets/images/pages/v1.svg").img-fluid  
-                    .list__txt
-                        p.mt-1 #[b Controlar]: tomar medidas para mantener el progreso, valorando en términos económicos y el nivel de satisfacción al cliente.
-        img(src="assets/images/pages/img19.png", style="max-width: 100%").img-fluid.img-a
-        p El nombre proviene en los casos en que se presenta una menor variación entre los datos y así mismo es la desviación standard es menor y por lo tanto mayor va a ser la sigma alcanzando el nivel 6. 
-        p Para conocer más sobre el modelo visitar ("sigma Six Lean solutions", 2020), además leer en línea el libro Lean Six Sigma.
-        p En cada fase se utilizan herramientas para el análisis y gráficos como: Histogramas, diagrama causa efecto, Pareto, gráficos de tendencias, análisis de correlación, capacidad del proceso, gráficos de control, entre otros.
-        .sub-line
-                h3.txt-color1 Costos de calidad
-        p La meta general de la empresa es ser rentable, generar ganancias, por eso la relación de la calidad con el precio se debe analizar, concientizando al personal de su importancia.
-        p La clasificación de los costos de calidad ayuda a entender y concientizar la importancia en procurar el control de los costos de calidad. En la siguiente figura se puede observar los tipos de costos de calidad:
-        img(src="assets/images/pages/img20.png", style="max-width: 100%").img-fluid.img-a
-        img(src="assets/images/pages/img21.png", style="max-width: 100%").img-fluid.img-a
-        .sub-line
-                h3.txt-color1 Sistema de Gestión de Calidad: Norma ISO 9001 ver 2015
-        p El sistema de gestión es una herramienta administrativa, cuenta con una estructura organizada para integrar todos los procesos, integrando los elementos necesarios para lograr cumplir las necesidades y expectativas del cliente. Obtener la certificación es evidenciar la capacidad que tiene la empresa con cumplir con los requisitos. Una vez certificada la empresa su vigencia es de 3 años, con auditorias de seguimiento y una vez pasados los tres años se debe realizar auditoría de renovación.
-        p La certificación es una constancia de valor a nivel internacional. El enfoque de la norma es basado en los riesgos, en donde la empresa demuestre la gestión de los riesgos y las oportunidades que pueda afectar la capacidad de proporcionar satisfacción al cliente y los resultados esperados de la empresa.
-        p La norma específica que debe hacerse, pero no como hacerlo. Para la norma es primordial que la información se encuentre documentada.
-        img(src="assets/images/pages/img22.png", style="max-width: 100%").img-fluid.img-a
-    
-    br#puntos
+                        .avatar.avatar-xxl.card-avatar.card-avatar-top
+                            img(src="assets/images/pages/ejemplos/modulo-3/d3.svg").avatar-img.rounded-circle.border.border-card.border-4
+                        p.header-step
+                            span.header-step-number 03
+                            span.header-step--title <strong>Emisión del certificado de defunción y embalaje del cadáver</strong> para entrega al servicio funerario evitando así el traslado del cadáver al prestador de servicios de salud o al sistema judicial (artículo 2.8.9.7 del Decreto 780 de 2016).
 
-    .header-ecored
-        h2 1.3 Puntos de control en el proceso de confección
-    
-    .jumbotron.shadow.bg-color1
-        .row.align-items-center
-            .col
-                p Se debe establecer diferencia entre los puntos de control y los puntos de control crítico, para tener claridad en el control de calidad de la prenda. Una vez analizamos el flujo de los procesos mediante los diagramas de árbol y flujogramas, se determina en el proceso y en la prenda, los puntos a inspeccionar según su relevancia y así se establece clasificación.
-                p En el patronaje se debe inspeccionar número de piezas, anchos de costuras, medidas de patrón y de prenda terminada. Además, las medidas en cortes para unión de piezas cada lado a unir debe corresponder, se debe disponer del tiempo necesario para realizar la revisión sean en un patrón manual o en el programa especializado.
-                p En el momento del desarrollo del producto se debe realizar la inspección, de tal forma que se compare junto con la muestra y así pueda ser aprobada y pasar a los procesos de producción.
-            .col-auto
-                img(src="assets/images/pages/img23.png", style="max-width: 60%").img-fluid.img-a
-        .sub-line
-                h3.txt-color1 Puntos de control en trazo y corte
-        .row.align-items-center
-            .col-auto
-                img(src="assets/images/pages/img24.png", style="max-width: 60%").img-fluid.img-a
-            .col
-                p Una vez se desarrolle el trazo, antes de imprimir en el caso que sea digital y antes de realizar el extendido de la tela; se debe inspeccionar el trazo, revisando la correspondencia de piezas y distribución de tallas teniendo en cuenta orden de producción, ancho de trazo y ancho de tela.
-                p En el corte se debe revisar una vez se termina de extender y antes de iniciar el corte las unidades de capas y alineación del tendido, la apariencia de la tela, también tener cuidado de la separación del corte, sobre todo en el caso de si se han extendido diferentes rollos de tela en el mismo corte. Se debe revisar el cumplimiento de tiempos de reposo.
-                p En la separación, tiqueteado y paqueteo de las piezas, el inspector de calidad debe revisar el corte de las piezas al comparar con el patronaje de la pieza, contar las piezas del paquete, el sistema de amarre y rotulado. Es importante de disponer de un puesto de trabajo para la inspección con excelente luz y limpieza para determinar defectos en la tela y en el corte de las piezas. Es importante la disposición de las piezas para evitar contaminaciones del paquete con otros colores, por ejemplo, de la referencia.
-        .sub-line
-                h3.txt-color1 Puntos de control en confección
-        img(src="assets/images/pages/img25.png", style="max-width: 80%").img-fluid.img-a
-        p Teniendo en cuenta los procesos dentro de la confección de las prendas, comprendidos por operaciones de preparación, ensamble y terminados, así mismo se establecen puntos de control en las áreas, es importante establecer los puestos de calidad, en donde se realizan las inspecciones por el inspector de calidad; en el caso que el sistema de la planta sea modular, cada módulo debe disponer del puesto de calidad. Cada puesto debe disponer de las herramientas para realizar mediciones y formatos, además de una ubicación estratégica dentro del área.
-        p Aunque es importante la implementación de auto calidad en cada operario, de igual manera se debe realizar las inspecciones llamadas” en pie de máquina”; se realiza mientras el operario desarrolla la operación en su puesto de trabajo, con el fin de detectar de manera temprana defectos, además de establecer acciones de mejora. Cuando al producto se realiza procesos de estampación o bordados se requiere establecer puntos de control de esos procesos, los cuales son puntos de control críticos.
-        img(src="assets/images/pages/img26.png", style="max-width: 80%").img-fluid.img-a
-        .sub-line
-                h3.txt-color1 Puntos de control en producto terminado
-        .row.align-items-center
-            .col
-                p Al finalizar la confección en cada módulo de producción o línea de la referencia, se revisa el producto terminado antes de realizar proceso de planchado, procesos de lavandería, empaque y embalaje; pero igualmente se debe inspeccionar una vez sea realice el planchado si es requerido y su empaque. Se debe establecer las medidas para la atención de prendas que no fueron aceptadas en las inspecciones y las acciones para su tratamiento.
-            .col-auto
-                img(src="assets/images/pages/img27.png", style="max-width: 60%").img-fluid.img-a
-        .sub-line
-                h3.txt-color1 Puntos de control en confección de lote piloto
-        .row.align-items-center
-            .col-auto
-                img(src="assets/images/pages/img28.png", style="max-width: 60%").img-fluid.img-a
-            .col
-                p El lote piloto son unas unidades que se confeccionan con el fin de simular la producción de cierta referencia nueva. Es necesario una vez se desarrolla el producto nuevo, realizar simulaciones para prever fallas en la producción, la información proporcionada una vez se realice el lote piloto brinda confianza y señala las estrategias a efectuar en el momento de la producción de la prenda.
-        .sub-line
-                h3.txt-color1 Puntos de control en compras: materiales e insumos
-        img(src="assets/images/pages/img29.png", style="max-width: 80%").img-fluid.img-a
-        p En las áreas de bodegas y almacenes se deben realizar las inspecciones necesarias antes de la integración del producto, en donde se realiza el alistamiento de los insumos necesarios para la confección y se integran al paquete de las unidades cortadas según las unidades establecidas. En el caso de telas se puede apoyar el control con equipos como revisadoras de telas para inspeccionar los defectos.
-        .row.justify-content-center.mt-4
-            .col-8
-                section
-                    .row.justify-content-center
-                        .col-auto
-                            a(href="media/documentos/Anexo1.pdf" target="_blank").media-link
-                                img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
-                                .media-link-title
-                                    p Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad
-    
-    br#control1
 
-    .header-ecored
-        h2 1.4 Control de Calidad en patronaje
-    
-    .card.shadow
-        img(src="assets/images/pages/img30.png", style="max-width: 100%").img-fluid
-        .card-body
-            p El control de los procesos es, comprender cuales son las variaciones en las características del producto, encontrar las causas y tomar las decisiones para controlar la variabilidad, eliminando los errores, estandarizando el proceso y establecer mejoras para tener una variabilidad controlada.
-            p.mt-4 En el proceso de patronaje la persona responsable del patronaje de la prenda, junto con el auditor de calidad realizan la revisión del paquete de moldes o patrones que comprenden la pieza, es importante revisarlos en físico, a pesar se desarrollen la prenda en programa especializado en computador.
-            p.mt-4 Una vez se desarrolla la prenda la validación de los patrones debe estar contenida en un documento de revisión de patronaje.
-            .sub-line
-                h3.txt-color1 Requisitos de calidad en patronaje
-            p Los productos tienen variables y atributos, las variables son características cuantitativas y los atributos son las características no cuantificables, los cuales unidos son los requisitos de una prenda.
-            p.mt-4 Los requisitos además están clasificados de la siguiente manera:
-            img(src="assets/images/pages/img31.png", style="max-width: 80%").img-fluid.img-a
-            p Los requisitos para revisar en patronaje son:
-            img(src="assets/images/pages/img32.png", style="max-width: 80%").img-fluid.img-a
-    
-    br#control2
+                .card.col-12.col-md-5.p-0.ml-md-4.mt-5
+                    .card-body.text-center
 
-    .header-ecored
-        h2 1.5 Control de Calidad en trazo y corte
-    
-    .card.shadow
-        img(src="assets/images/pages/img33.png", style="max-width: 100%").img-fluid
-        .card-body
-            p Las personas encargadas de cada actividad en el área deben contar con comunicación abierta para coordinar el proceso debido a que el error en el área, se replica igualmente en la producción, con relación a lo anterior es importante detectar el problema a tiempo. Es primordial contar con la trazabilidad de la producción, para ubicar fácilmente cada lote, poder intervenir rápidamente en los productos a corregir y dar respuesta rápida para solucionar el inconveniente.
-            p.mt-4 Los documentos utilizados en el área para controlar el corte, además de la orden de producción, son las inspecciones en corte para revisar cada actividad. Además de un formato que se puede anexar en el paqueteo donde se validen las unidades de cada pieza en cada paquete, siendo un apoyo visual importante en el alistamiento del proceso de confección.
-            .sub-line
-                h3.txt-color1 Requisitos de calidad en trazo y corte
-            p Los requisitos para revisar en cada actividad son los siguientes:
-            img(src="assets/images/pages/img34.png", style="max-width: 80%").img-fluid.img-a
-    
-    br#control3
+                        .avatar.avatar-xxl.card-avatar.card-avatar-top
+                            img(src="assets/images/pages/ejemplos/modulo-3/d4.svg").avatar-img.rounded-circle.border.border-card.border-4
+                        p.header-step
+                            span.header-step-number 04
+                            span.header-step--title <strong>Alistamiento del cadáver:</strong> será realizado en el mismo sitio del deceso, por parte del personal de salud autorizado para la manipulación del cadáver. Deberá contar con los elementos de protección personal y seguir los procedimientos de bioseguridad establecidos en este documento, así como los elementos necesarios para la toma de muestras, bolsas para el embalaje e insumos para el manejo de residuos entre otros.
 
-    .header-ecored
-        h2 1.6 Control de Calidad en confección
-    
-    .card.shadow
-        img(src="assets/images/pages/img35.png", style="max-width: 100%").img-fluid
-        .card-body
-            p Teniendo en cuenta la distribución de las operaciones, es decir la hoja de ruta; operaciones de preparación, ensamble y terminados, cada operación tiene un método, un tiempo estándar, y la descripción de maquinaria, pies, guías, fólderes y aditamentos que se deben revisar.
-            p.mt-4 En los puntos de revisión se realizan inspecciones, donde se retienen prendas o piezas con defectos para analizar las causas y determinar acciones, así mismo en los puestos de trabajo con auto calidad, donde la responsabilidad es de cada operario con acompañamiento y el apoyo del auditor de calidad en pie de máquina. Conforme corresponda la inspección se utilizan los formatos de inspecciones de producto terminado y producto en proceso.
-            p.mt-4 Los factores para tener en cuenta además de los anteriormente mencionados que son directos al proceso, también existen factores ambientales como la iluminación, ventilación, temperatura, ruido, espacio y aseo; factores humanos relacionados con el personal como la capacitación y las relaciones entre el personal, los cuales afectan los resultados en los productos y por ende en la calidad de estos.
-            p.mt-4 También se pueden realizar pruebas o ensayos en laboratorios especializados que evalúen la prenda según normas nacionales e internacionales, uno de ellos es la prueba de uso en la que se compara los resultados planteados y los reales obtenidos.
-            img(src="assets/images/pages/img36.png", style="max-width: 80%").img-fluid.img-a
-            p En el siguiente cuadro podemos observar algunos ensayos con la norma relacionada que se puede realizar a la prenda.
-            img(src="assets/images/pages/img37.png", style="max-width: 80%").img-fluid.img-a
-            .sub-line
-                h3.txt-color1 Requisitos de calidad en confección
-            p Los requisitos que se deben cumplir en la confección y son objetos de control son:
-            img(src="assets/images/pages/img38.png", style="max-width: 80%").img-fluid.img-a
-            img(src="assets/images/pages/img39.png", style="max-width: 80%").img-fluid.img-a
-    
-    br#control4
+    #cardavatarleft
 
-    .header-ecored
-        h2 1.7 Control de Calidad en terminados
-    
-    .card.shadow
-        img(src="assets/images/pages/img40.png", style="max-width: 100%").img-fluid
-        .card-body
-            p En los terminados se incluyen procesos de planchado, empaque, embalaje y procesos de acabados como lavandería, estampación y bordado.
-            p.mt-4 Puede ser que los procesos de acabados pueden desarrollarse de manera externa a la empresa, es decir contratar los servicios, y por lo tanto la importancia de los puntos de control una vez ingresen a la planta, validar las prendas o piezas una vez se realicen los procesos.
-            p.mt-4 El planchado es la última operación del proceso de producción, es necesario que las personas responsables de la sección tengan los criterios claros para evaluar las prendas que pasarán a las operaciones para la entrega al cliente.
-            .sub-line
-                h3.txt-color1 Requisitos de calidad en acabados
-            p Los requisitos para revisar en cada una de las actividades del proceso de acabados son los siguientes:
-            img(src="assets/images/pages/img41.png", style="max-width: 80%").img-fluid.img-a
-    
-    br#control5
+        .header.my-md-5
+            .header-body
+                // Title
+                h1.header-title Card + Avatar Left
+                // Subtitle
+                p.header-subtitle
+                    | Ejemplo para colocar un listado con iconos. Clase .card-media. Recuerde que puede darle un color de fondo usando .bg-brand-color-light ó .bg-brand-color-dark. Por defecto el componente tiene color azul claro.
 
-    .header-ecored
-        h2 1.8 Control de calidad en insumos, materiales y textiles
+
+        .row.justify-content-center.mt-5
+
+            .col-10.col-md-8
+                .card-media
+                    .card-media__body                 
+                        figure.card__figure
+                            img(src="assets/images/pages/ejemplos/modulo-7/icon-01.svg").img-fluid
+                        p.card__copy 
+                            span 
+                                |  Salpicadura de fluidos biológicos o secreciones respiratorias que comprometan la membrana de los ojos, boca o nariz ola piel lastimada del trabajador.
+
+
+            .col-10.col-md-8
+                .card-media.bg-brand-color-light
+                    .card-media__body                 
+                        figure.card__figure
+                            img(src="assets/images/pages/ejemplos/modulo-7/icon-01.svg").img-fluid
+                        p.card__copy 
+                            span 
+                                |  Salpicadura de fluidos biológicos o secreciones respiratorias que comprometan la membrana de los ojos, boca o nariz ola piel lastimada del trabajador.
+
+            .col-10.col-md-8
+                .card-media.bg-brand-color-dark
+                    .card-media__body                 
+                        figure.card__figure
+                            img(src="assets/images/pages/ejemplos/modulo-7/icon-02.svg").img-fluid
+                        p.card__copy 
+                            span 
+                                | Pinchazo o cortadura con superficies afiladas en contacto con material contaminado con fluidos biológicos o secreciones respiratorias.
+
+
+        hr.mt-5
+
+        .p-5
+
+        .header.my-md-5
+            .header-body
+                // Title
+                h1.header-title Card + Avatar Left  (Colores personalizados)
+                // Subtitle
+                p.header-subtitle
+                    | Ejemplo para colocar un listado con iconos. Clase .card-media usando la etiqueta style para colores personalizados de fondo
+
+
+            .row.justify-content-center.my-5
+        
+                .col-10.col-md-8
+                    .card-media(style="background: #FEF8A6;")
+                        .card-media__body                 
+                            figure.card__figure
+                                img(src="assets/images/pages/ejemplos/modulo-7/imgP01.svg").img-fluid
+                            p.card__copy 
+                                span 
+                                    strong Grupo de riesgo 1:
+                                    br
+                                    | Microorganismos con mínimo riesgo individual y colectivo con pocas probabilidades de causar enfermedades en humanos o en animales. Incluye aquellos microorganismos, bacterias, hongos, virus y parásitos, que no causan enfermedades a trabajadores de la salud y animales.
+
+                .col-10.col-md-8
+                    .card-media(style="background: #FDDFB1;")
+                        .card-media__body                 
+                            figure.card__figure
+                                img(src="assets/images/pages/ejemplos/modulo-7/imgP02.svg").img-fluid
+                            p.card__copy 
+                                span 
+                                    strong Grupo de riesgo 2:
+                                    br
+                                    | Microorganismos con moderado riesgo individual y riesgo comunitario limitado, incluye patógenos que pueden causar enfermedades a humanos o animales, pero que bajo condiciones normales no producen riesgos serios a trabajadores de la salud, la comunidad, los recursos naturales o el medioambiente. Existen medidas eficaces y el riesgo de propagación es limitado.                       
+
+            
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Imagen  + Card 
+
+
+        .row.align-items-center.justify-content-center.my-5
+
+            .col-12.col-md-10
+
+                article.custom-item.d-flex.align-items-center.flex-column.flex-md-row
+
+                    img(src="assets/images/pages/ejemplos/iconos/icon1.svg").custom-item-img.my-2
+
+                    .custom-item-info.card-border-bottom.my-2
+                        .card(style="border-color: #E3DAC6").mb-0
+                            .card-body
+                                h3.card-title Cuchillas
+                                p Es la herramienta que permite realizar el corte de los moldes y de las piezas de cuero y/o sintético.  Debe estar afilada para lograr un buen corte, tanto en la moldería como en el material.
+
+
+        .row.align-items-center.justify-content-center.my-5
+
+            .col-12.col-md-10
+
+                article.custom-item.d-flex.align-items-center.flex-column.flex-md-row
+
+                    img(src="assets/images/pages/ejemplos/iconos/icon1.svg").custom-item-img.my-2
+
+                    .custom-item-info.card-border-bottom.my-2
+                        .card(style="border-color: #E3DAC6").mb-0
+                            .card-body
+                                h3.card-title Cuchillas
+                                p Es la herramienta que permite realizar el corte de los moldes y de las piezas de cuero y/o sintético.  Debe estar afilada para lograr un buen corte, tanto en la moldería como en el material.
+
+
+    #medialink
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Botón enlace a recursos externos
+
+            section.my-5
+
+                a(href="media/ejemplos/documento.pdf" target="_blank").media-link      
     
-    .card.shadow
-        img(src="assets/images/pages/img42.png", style="max-width: 100%").img-fluid
-        .card-body
-            p La comunicación con la cadena de abastecimiento es muy importante para solucionar de manera eficiente los problemas derivados que puedan ocurrir en la producción de las prendas.
-            p.mt-4 Los espacios disponibles para recibir los diferentes elementos deben cumplir con condiciones óptimas de ventilación, iluminación, seguridad, aseo y organización, que afectan los requerimientos de calidad en la cadena productiva. El control de inventarios está relacionado directamente con el control de calidad, para generar las mejoras de toda la gestión de la empresa.
-            p.mt-4 En las entradas del proceso de producción uno de los recursos son los insumos y materias primas, las revisiones de calidad responde a uno de los principios de calidad que es hacer las cosas bien desde el principio, dando la relevancia para asegurar el flujo de los procesos, así mismo al finalizar el proceso de producción se requieren materiales para la entrega del producto al cliente, los cuales de igual manera se deben validar.
-            p.mt-4 Los requisitos necesarios para cumplir con las solicitudes de insumos son:
-            img(src="assets/images/pages/img43.png", style="max-width: 80%").img-fluid.img-a
-            p En los casos de hilos se analizan propiedades como elasticidad, flexibilidad, durabilidad, resistencia a rotura, tenacidad, solidez al color, uniformidad de tono y grosor. En los elásticos es importante realizar pruebas de recuperación de su longitud, teniendo en cuenta el reposo y la tensión ejercida en su elongación. Es importante controlar desperdicios generados en la producción de los insumos, los cuales inciden en el costo del producto, de allí la importancia del control de los consumos en la planta.
-            p.mt-4 El siguiente cuadro muestra pruebas especializadas que se realizan, para evaluar características de algunos insumos:
-            img(src="assets/images/pages/img44.png", style="max-width: 80%").img-fluid.img-a
-            .sub-line
-                h3.txt-color1 Control de calidad de materiales
-            p Los materiales que apoyan la producción como es el caso en mayor medida de la papelería, sus especificaciones técnicas deben corresponder a su aplicación en el proceso productivo.
-            p.mt-4 Para validar el uso de los materiales en las diferentes áreas se inspeccionan los siguientes requisitos:
-            img(src="assets/images/pages/img45.png", style="max-width: 80%").img-fluid.img-a
-            .sub-line
-                h3.txt-color1 Control de calidad en textiles
-            img(src="assets/images/pages/img46.png", style="max-width: 100%").img-fluid.img-a
-            p En el caso de los textiles, teniendo en cuenta las propiedades asociadas a su composición se realizan las inspecciones en las que pueden ser observables con detenimiento, pero es necesario realizar pruebas de laboratorio que garanticen la calidad para su utilización.
-            p.mt-4 Se tienen en cuenta algunas de ellas como muestra el siguiente cuadro:
-            img(src="assets/images/pages/img47.png", style="max-width: 100%").img-fluid.img-a
-            p La tela es la materia prima que más consume la prenda, es por eso se debe revisar la uniformidad del color, sin deshilados, huecos, motas, contaminación de otros hilos, textura de acuerdo con el tejido es decir que no tenga arrugas no relacionadas a su textura, limpieza, anchos de tela parejos, orillo de tela.
-            p.mt-4 Es importante revisar el comportamiento del textil al contacto con el agua y las temperaturas sobre todo las altas, en el dado caso la pieza, necesite de realizar fusionados y lo relacionado al planchado. Al lavar la tela se puede observar la recuperación y formación de arrugas, la solidez del color para que no migre en el dado caso que se presente combinaciones de colores en las piezas y uso de insumos.
-            p.mt-4 También se debe tener en cuenta en las fibras, los efectos del contacto con bacterias y microorganismos, su incidencia en la durabilidad. Así mismo el contacto con fluidos corporales como sangre, saliva o sudoración.
-            .row.justify-content-center.mt-4
-                .col-8
-                    section
-                        .row.justify-content-center
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+
+                    .media-link-title
+                        p #[strong Anexo]. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+            
+
+
+            section.my-5
+
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                a(href="media/ejemplos/documento.pdf" target="_blank").media-link      
+    
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+
+                    .media-link-title
+                        p #[strong Anexo]. Título del documento
+            
+
+    #question
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Question Header (Number)
+
+        section.my-5
+
+            .card 
+
+                .card-body
+
+                    .question
+                        .question-header
+                            .question-number
+                                span 1.
+                            .question-title
+                                span ¿ Cuál es el objetivo que pretende la telesalud ?
+                        .question-body
+                            p
+                                | La Telesalud busca mejorar el acceso, la resolutividad, la continuidad y la calidad de la atención clínica, impactar la salud pública y la educación para la salud mediante el uso de las TIC.
+
+
+                    .question           
+                        .question-header
+                            .question-number
+                                span 2.
+                            .question-title
+                                span ¿Los usuarios pueden sentirse tranquilos y seguros cuándo sean atendidos con actividades de telesalud?
+
+                        .question-body
+                            p
+                                | Si. Todos los colombianos que sean atendidos con actividades de Telesalud como Teleorientación en salud y Teleapoyo, porque se garantizan los siguientes principios:
+
+
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Question Header (Icon)
+
+        section.my-5
+
+            .card
+                .card-body
+
+                    .question.mt-2           
+
+                        .question-header
+
+                            .question-number
+                                i.fa.fa-lg.fa-tint
+
+                            .question-title
+                                span Toma de muestras para un correcto diagnóstico de los virus respiratorios.
+
+
+                        .question-body                
+                    
+                            p.mb-5 Para los casos de muerte hospitalaria o domiciliaria, por un presunto cuadro respiratorio no diagnosticado, el prestador de servicios de salud debe realizar la toma de muestras de secreción respiratoria con aspirado nasofaríngeo e hisopado nasofaringeo y orofaringeo.
+
+
+
+                            .row.justify-content-between.align-items-start.mt-5
+                                .col-12.col-lg-6
+
+                                    p.header-step
+                                        span.header-step-number 01
+                                        span.header-step-title <strong>La muestra debe tomarse dentro de las primeras 6 horas postmortem.</strong>
+
+
+                                    hr
+
+                                    p.header-step
+                                        span.header-step-number 02
+                                        span.header-step-title <strong>La toma de la muestra deberá ser con hisopos en medio de transporte de viral (MTV) y los aspirados en solución salina. </strong>
+
+                                    hr
+
+                                    p.header-step
+                                        span.header-step-number 03
+                                        span.header-step-title <strong>Remitirlas de manera inmediata al Laboratorio de Salud Pública Departamental o Distrital (LDSP).</strong>
+
+                                    hr
+
+                                    p.header-step
+                                        span.header-step-number 04
+                                        span.header-step-title <strong>Dentro de las primeras 48 horas posterior a su recolección, se deben conservar a una temperatura de refrigeración entre -2 y 8°C. </strong>
+
+                                    hr
+
+                                
+                                .col-12.col-lg-6
+
+                                    
+
+                                    p.header-step
+                                        span.header-step-number 05
+                                        span.header-step-title <strong>Si van a ser procesadas o enviadas al LDSP o al Instituto Nacional de Salud después de las 48 horas de recolección, se deben conservar congeladas a menos 70°C. </strong>
+
+                                    hr
+
+                                    p.header-step
+                                        span.header-step-number 06
+                                        span.header-step-title <strong>En los casos sin diagnóstico en los cuales se sospecha infección por COVID-19, se hace obligatoria la aplicación de todos los lineamientos de protección y cuidados. </strong>
+
+                                    hr
+
+    #tabsecored
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Nav Tab
+                p.header-subtitle Navegación por tabs.
+
+        .card
+            .card-body
+
+                p Se debe garantizar una comunicación correcta que permita transmitir la información de la infección por COVID-19 sin generar pánico, pero tampoco infunda más tranquilidad de la necesaria. La Organización Panamericana de la Salud en atención a esta necesidad establece estos principios fundamentales (OPS, 2020c):
+
+
+                nav.nav-tab-ecored.my-5
+                    #nav-tab.nav.nav-tabs(role='tablist')
+                        a#nav-01-tab.nav-item.nav-link.active(data-toggle='tab', href='#nav-01', role='tab', aria-controls='nav-01', aria-selected='true') 
+                            strong Confianza y credibilidad
+                        a#nav-02-tab.nav-item.nav-link(data-toggle='tab', href='#nav-02', role='tab', aria-controls='nav-02', aria-selected='false') 
+                            strong Anuncio temprano
+                        a#nav-03-tab.nav-item.nav-link(data-toggle='tab', href='#nav-03', role='tab', aria-controls='nav-03', aria-selected='false') 
+                            strong Transparencia
+                        
+                    #nav-tabContent.tab-content
+                        #nav-01.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='nav-01-tab')
+
+                            ul.list-unstyled
+                                li.mb-4
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Evite decir que todo irá bien si, de hecho, no se sabe si será así. Diga lo que sabe en ese momento y lo que la institución de salud está haciendo al respecto.
+                                li.mb-4 
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Es importante comunicar al público lo que puede hacer (por ejemplo: “lávese las manos”, “tosa o estornude en el lado interno del codo”).
+                                li.mb-4
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | No minimice la preocupación de la población. Reconozca el temor de la gente. Las personas pueden estar atemorizadas, lo cual es una reacción saludable.
+                                li.mb-4 
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Reconozca las equivocaciones. Si existe un error, corríjalo rápidamente.
+
+
+                        #nav-02.tab-pane.fade(role='tabpanel', aria-labelledby='nav-02-tab')
+                            ul.list-unstyled
+                                li.mb-4
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | El anuncio temprano es muestra de liderazgo, genera confianza, reduce los rumores y, en consecuencia, puede salvar vidas. En el denominado “primer anuncio” se debe indicar lo que se sabe, lo que esto significa y lo que se está haciendo.
+                                li.mb-4 
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Los anuncios tardíos dan lugar a especulaciones, lo que hace que la gente se pregunte hasta qué punto es realmente mala la situación.
+                                li.mb-4
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Evite la estigmatización. Podría presentarse una discriminación y por tanto dar lugar a que los trabajadores no admitan que tienen sintomatología asociada.
+
+                        #nav-03.tab-pane.fade(role='tabpanel', aria-labelledby='nav-03-tab')
+
+                            ul.list-unstyled
+                                li.mb-4
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Sea transparente. Asegúrese de que los criterios para tomar ciertas decisiones estén disponibles. Por ejemplo, el criterio para reubicar a cierto grupo de trabajadores porque están en mayor exposición y en condición vulnerable.
+                                li.mb-4 
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Disemine información oportuna y transparente, técnicamente correcta y basada en evidencias.
+                                li.mb-4
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Explique el proceso decisorio (por ejemplo: “Creemos que hacer público el nombre de la persona supondría estigmatizar a esa persona y a su familia”).
+                                li.mb-4 
+                                    i.fa.fa-angle-right.fa-lg.mr-3
+                                    | Hable acerca de los riesgos, los beneficios y los retos.
+
+    #gallery
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Galería
+
+        p Click en cada imagen para visualizar el efecto de zoom y la galería con JS.
+        .row.text-center.text-lg-left
+            .col-lg-3.col-md-4.col-6
+                a.d-block.mb-4.h-100(href='assets/images/pages/ejemplos/700x350.png', data-fancybox='gallery', data-caption='Espacio para la descripción de la foto', data-imagen='assets/images/pages/ejemplos/700x350.png')
+                    img.img-fluid.img-thumbnail(src='assets/images/pages/ejemplos/700x350.png', alt='')
+            .col-lg-3.col-md-4.col-6
+                a.d-block.mb-4.h-100(href='assets/images/pages/ejemplos/700x350.png', data-fancybox='gallery', data-caption='Espacio para la descripción de la foto', data-imagen='assets/images/pages/ejemplos/700x350.png')
+                    img.img-fluid.img-thumbnail(src='assets/images/pages/ejemplos/700x350.png', alt='')
+            .col-lg-3.col-md-4.col-6
+                a.d-block.mb-4.h-100(href='assets/images/pages/ejemplos/700x350.png', data-fancybox='gallery', data-caption='Espacio para la descripción de la foto', data-imagen='assets/images/pages/ejemplos/700x350.png')
+                    img.img-fluid.img-thumbnail(src='assets/images/pages/ejemplos/700x350.png', alt='')
+            .col-lg-3.col-md-4.col-6
+                a.d-block.mb-4.h-100(href='assets/images/pages/ejemplos/700x350.png', data-fancybox='gallery', data-caption='Espacio para la descripción de la foto', data-imagen='assets/images/pages/ejemplos/700x350.png')
+                    img.img-fluid.img-thumbnail(src='assets/images/pages/ejemplos/700x350.png', alt='')
+
+    #bscomponentes
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title Componentes Bootstrap
+
+
+        // Header
+        .header.mt-md-5
+        .header-body
+            // Title
+            h2.header-title
+                | Navs
+            // Subtitle
+            p.header-subtitle
+                | Please read the 
+                a(target='_blank', href='http://getbootstrap.com/docs/4.1/components/navs/')
+                | official Bootstrap documentation for a full list of options.
+
+        .card.mt-4
+            .card-body
+                .row
+                    .col-3
+                        #v-pills-tab.nav.flex-column.nav-pills(role='tablist', aria-orientation='vertical')
+                            a#v-pills-home-tab.nav-link.active(data-toggle='pill', href='#v-pills-home', role='tab', aria-controls='v-pills-home', aria-selected='true') Home
+                            a#v-pills-profile-tab.nav-link(data-toggle='pill', href='#v-pills-profile', role='tab', aria-controls='v-pills-profile', aria-selected='false') Profile
+                            a#v-pills-messages-tab.nav-link(data-toggle='pill', href='#v-pills-messages', role='tab', aria-controls='v-pills-messages', aria-selected='false') Messages
+                            a#v-pills-settings-tab.nav-link(data-toggle='pill', href='#v-pills-settings', role='tab', aria-controls='v-pills-settings', aria-selected='false') Settings
+                    .col-9
+                        #v-pills-tabContent.tab-content
+                            #v-pills-home.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='v-pills-home-tab')
+                                | ...
+                            #v-pills-profile.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-profile-tab')
+                                | ...
+                            #v-pills-messages.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-messages-tab')
+                                | ...
+                            #v-pills-settings.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-settings-tab')
+                                | ...
+
+    #buttonav
+        hr
+        // Heading
+        h2.mb-2
+            | Button + nav
+        // Subheading
+        p.text-muted.mb-4
+            | The basic page header extended with a button and a tabbed navigation.
+        // Card
+        .card
+            .card-body
+                .header
+                    .header-body
+                        .row.align-items-end
+                            .col
+                                // Pretitle
+                                h6.header-pretitle
+                                    | Members
+                                // Title
+                                h1.header-title
+                                    | Dianna Smiley
                             .col-auto
-                                a(href="media/documentos/Anexo2.pdf" target="_blank").media-link
-                                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
-                                    .media-link-title
-                                        p Manual control de calidad en productos textiles y afines
+                                // Buttom
+                                a.btn.btn-primary(href='#!')
+                                    | Subscribe
+                            // / .row
+                    .row
+                        .col-12
+                            // Nav
+                            ul.nav.nav-tabs.header-tabs
+                                li.nav-item
+                                    a.nav-link.text-center.active(href='#!')
+                                        | Daily
+                                li.nav-item
+                                    a.nav-link.text-center(href='#!')
+                                        | Weekly
+                                li.nav-item
+                                    a.nav-link.text-center(href='#!')
+                                        | Monthly
+
+
+    #collapsable
+        // Header
+        .header.mt-md-5
+            .header-body
+                // Title
+                h2.header-title
+                    | Collapsable
+                // Subtitle
+                p.header-subtitle
+                    | Please read the 
+                    a(target='_blank', href='http://getbootstrap.com/docs/4.1/components/navs/') official Bootstrap documentation
+                    |  for a full list of options.
+
+        #accordionExample.accordion
+            .card
+                #headingOne.card-header
+                    h2.mb-0
+                        button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                            h2.mb-0.collapsable-title Collapsible Group Item #1
+                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
+                    .card-body
+                        | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        | 3 wolf moon
+                        | officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                        | Brunch 3
+                        | wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                        | shoreditch et.
+                        | Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                        | proident. Ad vegan
+                        | excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                        | synth nesciunt
+                        | you probably haven't heard of them accusamus labore sustainable VHS.
+            .card
+                #headingTwo.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                            h2.mb-0.collapsable-title Collapsible Group Item #2
+                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                    .card-body
+                        | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        | 3 wolf moon
+                        | officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                        | Brunch 3
+                        | wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                        | shoreditch et.
+                        | Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                        | proident. Ad vegan
+                        | excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                        | synth nesciunt
+                        | you probably haven't heard of them accusamus labore sustainable VHS.
+            .card
+                #headingThree.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                            h2.mb-0.collapsable-title Collapsible Group Item #3
+                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                    .card-body
+                        | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        | 3 wolf moon
+                        | officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                        | Brunch 3
+                        | wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                        | shoreditch et.
+                        | Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                        | proident. Ad vegan
+                        | excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                        | synth nesciunt
+                        | you probably haven't heard of them accusamus labore sustainable VHS.
+    
+    
+    #slider
+        // Header
+        .header.mt-md-5
+            .header-body
+                // Title
+                h2.header-title
+                    | Slider
+
+        #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+            ol.carousel-indicators
+                li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+                li(data-target='#carouselExampleIndicators', data-slide-to='1')
+                li(data-target='#carouselExampleIndicators', data-slide-to='2')
+                li(data-target='#carouselExampleIndicators', data-slide-to='3')
+                li(data-target='#carouselExampleIndicators', data-slide-to='4')
+            .carousel-inner
+                .carousel-item.active
+                    img.d-block.w-100(src='assets/images/pages/ilustraciones/sociedades_mercantiles-01.png', alt='0')
+                .carousel-item
+                    img.d-block.w-100(src='assets/images/pages/ilustraciones/sociedades_mercantiles-02.png', alt='1')
+                .carousel-item
+                    img.d-block.w-100(src='assets/images/pages/ilustraciones/sociedades_mercantiles-03.png', alt='2')
+                .carousel-item
+                    img.d-block.w-100(src='assets/images/pages/ilustraciones/sociedades_mercantiles-04.png', alt='3')
+                .carousel-item
+                    img.d-block.w-100(src='assets/images/pages/ilustraciones/sociedades_mercantiles-05.png', alt='4')                          
+                                                                            
+            a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+                span.carousel-control-prev-icon(aria-hidden='true')
+                span.sr-only Previous
+            a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+                span.carousel-control-next-icon(aria-hidden='true')
+                span.sr-only Next 
+    
+    
+    #tables
+        // Header
+        .header.mt-md-5
+            .header-body
+                // Title
+                h1.header-title
+                    | Tablas
+        table.table.table-nowrap
+            thead
+                tr
+                    th(scope='col') #
+                    th(scope='col') First
+                    th(scope='col') Last
+                    th(scope='col') Handle
+                    th(scope='col') Decription
+            tbody
+                tr
+                    th(scope='row') 1
+                    td Mark
+                    td Otto
+                    td @mdo
+                    td Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                tr
+                    th(scope='row') 1
+                    td Mark
+                    td Otto
+                    td @mdo
+                    td Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                tr
+                    th(scope='row') 1
+                    td Mark
+                    td Otto
+                    td @mdo
+                    td Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                tr
+                    th(scope='row') 1
+                    td Mark
+                    td Otto
+                    td @mdo
+                    td Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+    
+    
+    #lists
+        // Header
+        .header.mt-md-5
+            .header-body
+            // Title
+            h1.header-title
+                | Lists
+            // Subtitle
+            p.header-subtitle
+                | List groups are a flexible and powerful component for displaying a series of content. Modify and
+                | extend them to support just about any content within. Please read the 
+                a(target='_blank', href='http://getbootstrap.com/docs/4.1/components/list-group/')
+                | official Bootstrap documentation for a full list of options.
+        // Card
+        .card
+            .card-body
+                // List group
+                ul.list-group
+                    li.list-group-item.active Cras justo odio
+                    li.list-group-item Dapibus ac facilisis in
+                    li.list-group-item Morbi leo risus
+                    li.list-group-item Porta ac consectetur ac
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | Morbi leo risus 
+                        span.badge.badge-primary.badge-pill 1
+                // List group
+                .list-group.mt-5
+                    a.list-group-item.list-group-item-action.active(href='#!') Cras justo odio
+                    a.list-group-item.list-group-item-action(href='#!') Dapibus ac facilisis in
+                    a.list-group-item.list-group-item-action(href='#!') Morbi leo risus
+                    a.list-group-item.list-group-item-action(href='#!') Porta ac consectetur ac
+                    a.list-group-item.list-group-item-action.d-flex.justify-content-between.align-items-center(href='#!')
+                        | Morbi leo risus 
+                        span.badge.badge-primary.badge-pill 1
