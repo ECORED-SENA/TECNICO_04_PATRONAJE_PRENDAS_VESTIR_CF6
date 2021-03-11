@@ -252,3 +252,82 @@ ol.lista > li.mas:before {
 .border-bottom-orange {
     border-bottom: 5px solid $dark-orange;    
 }
+
+.TittleTable {
+    color:#673AB7;
+}
+
+.bg-01 {
+    background-color: #FFF7DE;
+}
+
+.bg-02 {
+    background-color: #e7c8ff;
+}
+
+.SubTittle-Table {    
+
+    h1 {
+        margin-top: -1.4em;
+        font-size: 30pt;
+        font-weight: bolder;
+    }  
+
+    .c1 {
+        color: #fbbe00;
+    }
+
+    .c2 {
+        color: #895CD8;
+    }
+}
+
+.card-mediaTable {
+    position: relative;
+    padding: 1rem 1rem 1rem 3rem;
+    margin: 0.5rem 0 0.5rem 1.6rem;
+    border-radius: 12px;
+
+    &_bgT01 {
+        background-color: #e7c8ff !important;
+    }
+    
+    &_bgT02 {
+        background-color: #fff5c8 !important;
+    }
+
+    .TableBullet {
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        left: -25px;
+        padding: 5px;
+        width: 50px !important;
+        height: 50px !important;
+        text-align: center;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    h2 {
+        font-size: 20pt;
+        color:white;
+        text-align: center;
+        margin: 0;
+    }
+
+    .c1 {
+        background-color:#895CD8;
+    }
+
+    .c2 {
+        background-color:#fbbe00;
+    }
+
+    p {
+        margin: 0;
+    }
+}
